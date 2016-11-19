@@ -14,4 +14,4 @@ alias wow='git status'
 
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
 
-PATH=$PATH:~/src/utils/
+PATH=$PATH:~/src/utils/:~/lib/bin/
