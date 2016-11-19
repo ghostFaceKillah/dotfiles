@@ -8,6 +8,7 @@
     ~/.dotfiles: ''
     ~/.vimrc: vimrc
     ~/.bashrc: bash_profile
+    ~/.tmux.conf: tmuxconf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

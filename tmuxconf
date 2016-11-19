@@ -1,0 +1,16 @@
+# Smart pane switching with awareness of vim splits
+bind -n M-k run-shell 'tmux-vim-select-pane -U'
+bind -n M-j run-shell 'tmux-vim-select-pane -D'
+bind -n M-h run-shell 'tmux-vim-select-pane -L'
+bind -n M-l run-shell 'tmux-vim-select-pane -R'
+bind -n "M-\\" run-shell 'tmux-vim-select-pane -l'
+
+bind-key J resize-pane -D 5
+bind-key K resize-pane -U 5
+bind-key H resize-pane -L 5
+bind-key L resize-pane -R 5
+
+bind-key C-j resize-pane -D
+bind-key C-k resize-pane -U
+bind-key C-h resize-pane -L
+bind-key C-l resize-pane -R

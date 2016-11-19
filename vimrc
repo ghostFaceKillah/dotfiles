@@ -10,7 +10,9 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'davidhalter/jedi-vim'
 
+Plugin 'ervandew/supertab'
 
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
 
