@@ -14,3 +14,9 @@ bind-key C-j resize-pane -D
 bind-key C-k resize-pane -U
 bind-key C-h resize-pane -L
 bind-key C-l resize-pane -R
+
+set -g mouse-select-pane on
+set -g mouse-resize-pane on
+set -g mouse-select-pane on
+set -g mouse-select-window on
+set -g mode-mouse on
