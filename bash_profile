@@ -7,11 +7,11 @@ function j {
 
 alias l="clear; ls -G"
 alias ds='d ..'
-alias plz='git'
-alias such='git'
-alias very='git'
-alias wow='git status'
 
-test -r /sw/bin/init.sh && . /sw/bin/init.sh
+function pu() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
 
 PATH=$PATH:~/src/utils/:~/lib/bin/
