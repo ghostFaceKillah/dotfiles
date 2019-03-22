@@ -13,5 +13,5 @@ function pu() {
     git commit -a -m "$1"
     git push
 }
-
-PATH=$PATH:~/src/utils/:~/lib/bin/
+# setxkbmap -layout us -option ctrl:nocaps
+# PATH=$PATH:~/src/utils/:~/lib/bin/
